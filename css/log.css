@@ -5,10 +5,10 @@
     color: white;
     font-size: 30px;
     font-weight: bold;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     float: left;
-    margin-top: -190%;
-    margin-left: 275%;
+    margin-top: -120%;
+    margin-left: 110%;
     font-family: Tahoma;
 }
 body {
@@ -30,11 +30,11 @@ body {
     align-items: center;
     text-align: center;
     margin-right: 20%;
-    margin-left: 10%;
+    /* margin-left: 3%; */
 }
 
 form {
-    margin-top: 5%;
+    margin-top: 15%;
     text-align: center;
     color: white;
     background-color: #0b4619;
