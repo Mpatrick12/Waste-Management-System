@@ -2,24 +2,40 @@
 
 /* Set the background color of the body to green */
 body {
-    background-color: lightgreen; /* Change to your desired shade of green */
+    background-color: #013e0d; /* Change to your desired shade of green */
 }
 .logo{
-    margin-top: -250px;
-    color: green;
+    display: flex;
+    text-align: center;
+    color: white;
+    font-size: 50px;
     font-weight: bold;
-    padding-left: 40px;
-    font-size: 30px;
+    margin-bottom: 20px;
+    float: left;
+    margin-top: -140%;
+    margin-left: 130%;
+    font-family: Tahoma;
 }
 
 /* Additional styles for the form */
 form#registrationForm {
-    margin: 0 auto;
+    margin-top: 0%;
+    margin-right: 20%;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #2f570a;
     border-radius: 5px;
     width: 300px;
-    background-color: #fff; /* Optional: to make the form background white */
+    background-color: #0b4619; /* Optional: to make the form background white */
+}
+a {
+
+color: white;
+
+}
+a :hover{
+
+color: white;
+background-color: wheat;
 }
 
 label {
