@@ -42,14 +42,14 @@ a {
     background-color: green;
     }
     .toggle-button {
-        margin-right: 3%;
+        margin-right: 8%;
         display: none;
         cursor: pointer;
         font-size: 30px;
         color: white;
     }
     
-    @media (max-width: 768px) {
+    @media screen and (max-width: 540px) {
         .nav-menu {
             display: none;
             flex-direction: row;
@@ -62,21 +62,24 @@ a {
         }
     
         .toggle-button {
+            margin-top: -7%;
             margin-right: 3%;
             display: block;
+            cursor: pointer;
             float: right;
-            font-size: 30px;
+            font-size: 22px;
             color: white;
         }
         header {
-            height: 70px;
+            display: block;
+            height: 80px;
             border-bottom: solid 1px #CCCCCC;
             color: #E3FFE3;
+            padding-top: 30px;
         }
         header ul{
-            margin-left: 2%;
-            margin-right: 3%;
-            font-size: 26px;
+            margin-left: 7%;
+            margin-right: -3%;
         }
         
     }
