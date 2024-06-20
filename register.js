@@ -1,6 +1,6 @@
 document.getElementById('registrationForm').addEventListener('submit', async (e) => {
     e.preventDefault();
-
+  
     const formData = {
         username: document.getElementById('username').value,
         email: document.getElementById('email').value,
