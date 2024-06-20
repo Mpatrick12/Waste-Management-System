@@ -2,10 +2,10 @@ document.getElementById('registrationForm').addEventListener('submit', async (e)
     e.preventDefault();
   
     const formData = {
-        username: document.getElementById('username').value,
-        email: document.getElementById('email').value,
-        password: document.getElementById('password').value,
-        role: document.getElementById('role').value,
+        username: document.getElementById('Username').value,
+        email: document.getElementById('Email').value,
+        password: document.getElementById('Password').value,
+        role: document.getElementById('Role').value,
     };
 
     try {
