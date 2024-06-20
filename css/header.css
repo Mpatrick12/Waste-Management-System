@@ -31,3 +31,13 @@ header ul li a {
     padding-left: 20px;
     font-size: 30px;
 }
+a {
+    text-decoration: none;
+    color: white;
+    
+    }
+    a :hover{
+    
+    color: green;
+    background-color: green;
+    }
