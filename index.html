@@ -3,35 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Registration</title>
-    <link rel="stylesheet" href="css/reg.css">
+    <title>User login</title>
+    <!-- <link rel="stylesheet" href="css/reg.css"> -->
+    <link rel="stylesheet" href="css/log.css">
 </head>
-
-<header>
-    <div class="logo"><h2>EcoCycle</h2></div>
-</header>
-
 <body>
-   
+    <header>
+        <div class="logo">EcoCycle</div>
+        
+    </header>
+    
     <div class="fform">
     <form id="registrationForm">
-        <label for="username">Username</label>
+        <label for="username">Username:</label>
         <input type="text" id="username" name="username" required><br><br>
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required><br><br>
-        <label for="password">Password</label>
+        <label for="password">Password:</label>
         <input type="password" id="password" name="password" required><br><br>
-        <label for="role">Role</label>
-        <select id="role" name="role" required>
-            <option value="0" style="text-align: center; font-weight: bold;">-- Select Role --</option>
-            <option value="household">Household User</option>
-            <option value="waste_service">Waste Collection Service</option>
-            <option value="admin">Administrator</option>
-        </select><br><br>
-        <button type="submit"><a href="log.html">Register</a></button>
+        <br>
+        <button type="submit"><a href="householdhome.html">Log In</a></button>
+
+        <p>If you don't have an account !! <br><br> <a href="reg.html">Sign Up</a></p>
     </form>
+ </div>
 
     <script src="register.js"></script>
-    </div>
+    <script src="checkRole.js"></script>
 </body>
 </html>
+
