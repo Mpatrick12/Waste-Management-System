@@ -19,3 +19,14 @@ body{
     font-size: 13px;
     color: gray;   
 }
+
+@media screen and (max-width: 540px) {
+    .schedule{
+        margin-top: 10%;
+        flex-wrap: wrap;
+    }
+    .schedule p{
+        padding-top: 5%;
+        font-size: 15px;   
+    }
+}

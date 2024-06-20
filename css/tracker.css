@@ -1,7 +1,7 @@
 *{
     margin: 0;
 }
-
+/* 
 header {
     display: flex;
     justify-content: space-between;
@@ -26,6 +26,10 @@ header ul{
 .logo{
     padding-left: 20px;
     font-size: 20px;
+} */
+
+body{
+    width: 100%;
 }
 
 .tracker {
@@ -50,4 +54,16 @@ color: white;
 border: none;
 cursor: pointer;
 padding: 5px 10px;
+}
+
+@media screen and (max-width: 540px) {
+    .tracker{
+        flex-wrap: wrap;
+    }
+    .details{
+        margin-top: 10%;
+        margin-left: 40%;
+    
+    }
+
 }
