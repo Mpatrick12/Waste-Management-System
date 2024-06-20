@@ -39,7 +39,7 @@ The system has three distinct users"
 - Patrick  Mukunzi
 - Roxanne Niteka
 - Aubin Saiba
-- Collette Asingizwe
+- Asingizwe Joie Collette
 
 
 
