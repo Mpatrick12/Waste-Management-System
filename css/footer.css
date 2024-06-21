@@ -82,7 +82,7 @@
     color: green;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 540px) {
     #footer {
         flex-wrap: wrap;
     }
@@ -103,5 +103,10 @@
     }
     .pages{
         margin-left: -30%;
+    }
+    #footer .contacts h3 {
+        margin-top: 20% ;
+        margin-bottom: 10px;
+        font-size: 18px;
     }
 }
