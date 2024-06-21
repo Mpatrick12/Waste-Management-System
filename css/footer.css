@@ -3,26 +3,27 @@
 }
 #footer {
     width: 100%;
-    border-top: 1px solid rgba(0, 128, 0, 0.726);
-    background-color: #E3FFE3;
-    color: black;
+    background-color: #004d0c;
+    color: white;
     text-align: center;
     padding-bottom: 1%;
 }
 
 #footer .footer-content {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    margin-left: 10%;
+    margin-top: 3%;
     flex-wrap: wrap;
-    margin: 0 auto;
     padding: 20px;
+    gap: 100px;
 }
 
 #footer .logo {
-    color: green;
+    color: white;
     font-size: 30px;
-    font-weight: bold;
+    font-weight: bold;  
+    margin-left: -70%;
+    padding-top: 6%;
 }
 
 #footer .contacts {
@@ -32,6 +33,8 @@
 #footer .contacts h3 {
     margin-bottom: 10px;
     font-size: 18px;
+    margin-top: -15%;
+    font-size: 23px;
 }
 
 #footer .contacts {
@@ -40,9 +43,10 @@
 }
 
 #footer .contacts a {
-    color: black;
+    color: white;
     text-decoration: none;
     margin: 5px 0;
+    font-size: 20px;
 }
 
 #footer .contacts a:hover {
@@ -60,28 +64,38 @@
 }
 
 .copyright{
-    background-color: rgba(128, 128, 128, 0.301);
+    background-color: whitesmoke;
     width: 98.5%;
     padding: 10px;
     margin-top: 20px;
     font-size: 12px;
+    color: black;
 }
 .pages h3 {
+    margin-top: -20%;
     margin-left: 30%;
+    font-size: 23px;
 }
 .pages ul{
     list-style: none;
 }
 .pages ul li a {
     text-decoration: none;
-    color: black;
+    color: white;
     text-align: center;
+    font-size: 20px;
 }
 .pages ul li a:hover {
     text-decoration: none;
     color: green;
 }
-
+.footerabout {
+    width: 30%;
+}
+.footerabout p{  
+   font-size: 20px;
+   text-align: left;
+}
 @media (max-width: 540px) {
     #footer {
         flex-wrap: wrap;
@@ -94,7 +108,6 @@
         text-align: left;
     }
     .copyright{
-        background-color: rgba(128, 128, 128, 0.301);
         width: 96%;
     }
     #footer .logo {

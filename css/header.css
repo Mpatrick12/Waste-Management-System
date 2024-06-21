@@ -4,8 +4,8 @@
 header {
     display: flex;
     justify-content: space-between;
-    background-color: green;
-    height: 60px;
+    background-color: #004d0c;
+    height: 80px;
     width: 100%;
     border-bottom: solid 1px #CCCCCC;
     color: #E3FFE3;
@@ -24,6 +24,13 @@ header ul{
 header ul li a {
     text-decoration: none;
     color: #E3FFE3;
+}
+.nav-menu button{
+    background-color: white;;
+    color: green;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
 }
 
 .logo{
