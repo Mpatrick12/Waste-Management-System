@@ -394,3 +394,21 @@ footer {
     bottom: 0;
     width: 97.5%;
 }
+.toggle-button {
+    margin-right: 8%;
+    display: none;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+}
+
+@media screen and (max-width: 540px) {
+    .toggle-button {
+        /* margin-top: -7%; */
+        margin-right: 3%;
+        cursor: pointer;
+        float: right;
+        font-size: 22px;
+        color: white;
+    }      
+}

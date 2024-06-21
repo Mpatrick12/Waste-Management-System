@@ -2,5 +2,5 @@ document.getElementById('logout-btn').addEventListener('click', function () {
   
     alert('Logged out sucessfully!');
    
-    window.location.href = 'index.html';
+    window.location.href = 'login.html';
 });
