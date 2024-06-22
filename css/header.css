@@ -86,6 +86,14 @@ a {
         }
         header ul{
             margin-top: 4%;
-            margin-right: -7%;
-        }       
+            margin-right: -4%;
+            gap: 27px;
+        }      
+        .nav-menu button{
+            background-color: white;;
+            color: green;
+            border: none;
+            cursor: pointer;
+            padding: 1px 4px;
+        } 
     }

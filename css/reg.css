@@ -76,3 +76,31 @@ button a {
     text-decoration: none;
     color: white;
 }
+
+
+@media screen and (max-width: 540px) {
+    .logo{
+        display: flex;
+        text-align: center;
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        float: left;
+        margin-top: -120%;
+        margin-left: 110%;
+        font-family: Tahoma;
+    }
+
+    .fform{
+        margin-right: 20%;
+        margin-left: -15%;
+    }
+    .logo{
+        font-size: 25px;
+        margin-bottom: 20px;
+        margin-top: -200%;
+        margin-left: 80%;
+        font-family: Tahoma;
+    }
+}

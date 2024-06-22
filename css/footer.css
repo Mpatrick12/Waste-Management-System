@@ -99,9 +99,13 @@
 @media (max-width: 540px) {
     #footer {
         flex-wrap: wrap;
+
     }
     #footer .footer-content {
-        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 170px;
+        margin-left: 3%;
+        font-size: 20px;
     }
 
     #footer .contacts {
@@ -111,7 +115,7 @@
         width: 96%;
     }
     #footer .logo {
-        margin-left: -25%;
+        margin-left: -55%;
         padding-bottom: 4%;
     }
     .pages{
@@ -121,5 +125,15 @@
         margin-top: 20% ;
         margin-bottom: 10px;
         font-size: 18px;
+    }
+    .footerabout {
+        width: 50%;
+    }
+    .footerabout p{  
+        font-size: 20px;
+        text-align: left;
+     }
+     #footer .contacts h3 {
+        margin-top: -60%;
     }
 }
