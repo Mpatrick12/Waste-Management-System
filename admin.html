@@ -5,6 +5,7 @@
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="admin.css">
     <link rel="stylesheet" href="css/logoutbutton.css">
+    <link rel="stylesheet" href="css/adminperformance.css">
 </head>
 <body>
     <div class="container">
@@ -40,9 +41,22 @@
 
         <div class="card mt-4">
             <div class="card-header">Recycling Efforts Monitoring</div>
-            <div class="card-body">
-                <canvas id="recyclingChart"></canvas>
+            
+            <div class="performance">
+                
+                
+                <div class="chart">
+                    <canvas id="myPieChart"></canvas>
+                </div>
+                
+                <div class="message">
+                    <h3>User Performance</h3>
+                    <p>60% of users have outstanding recycling performance!</p>
+                </div>
+
+
             </div>
+
         </div>
 
         <div class="card mt-4">
@@ -57,5 +71,6 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="admin.js"></script>
     <script src="logout.js"></script>
+    <script src="performance.js"></script>
 </body>
 </html>
