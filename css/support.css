@@ -116,6 +116,7 @@ form button:hover {
     margin: 0;
     cursor: pointer;
     font-size: 18px;
+    font-weight: 500;
 }
 
 .faq .question p {

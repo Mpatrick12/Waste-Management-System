@@ -10,7 +10,11 @@ header {
     border-bottom: solid 1px #CCCCCC;
     color: #E3FFE3;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
+
 header ul{
     display: flex;
     flex-direction: row;
