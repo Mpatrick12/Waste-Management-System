@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/performance.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
     <header>
@@ -40,6 +42,41 @@
         </div>
 
     </div>
+
+    <div class="performancetitle"><h2>Performance and Notifications</h2>
+    </div>
+    
+    <section id="updates">
+
+        
+
+    <div class="performance">
+      
+        <div class="chart">
+
+            <canvas id="myPieChart"></canvas>
+
+        </div>
+
+        <div class="message">
+           <h3>Your performance</h3>
+           <p>You're following your schedule well and doing great!
+              Continue supporting a greener environment</p>
+        </div>
+
+    </div>
+
+    <div class="notification">
+        
+        <h3>Notifications</h3>
+
+        <p>You created a new schedule.</p>
+
+        <a href="householdhome.html"><button>View</button></a>
+
+    </div>
+
+   </section>
            
     <br> <br> <br> <br> <br> <br> <br>
       
@@ -89,7 +126,8 @@
          <p>&copy; 2024 Management App. All rights reserved.</p>
          </div>
     </footer>
-    
+
+    <script src="performance.js"></script>
     <script src="householdhome.js"></script>
     <script src="logout.js"></script>
     <script src="responsive.js"></script>
