@@ -1,0 +1,17 @@
+
+.container h1{
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+#logout-btn{
+    float: right;
+    margin-top: -8%;
+    margin-right: -6%;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

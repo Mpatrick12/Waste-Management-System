@@ -27,9 +27,9 @@ $(document).ready(function() {
                 $('.edit-user').on('click', handleEditUser);
                 $('.delete-user').on('click', handleDeleteUser);
             },
-            error: function() {
-                alert('Error fetching users');
-            }
+            // error: function() {
+            //     alert('Error fetching users');
+            // }
         });
     }
 

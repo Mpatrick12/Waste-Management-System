@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>support</title>
+    <link rel="stylesheet" href="css/support.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header>
+        <div class="logo"> EcoCycle </div>
+        <div class="toggle-button" id="toggleButton">
+            <span>&#9776;</span>
+        </div>
+     
+        <ul class="nav-menu">
+            <li class="active"><a href="householdhome.html">Dashboard</a></li>
+            <li><a href="tracker.html">Recycle tracker</a></li>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="#footer">Contact</a></li>
+            <button id="logout-btn">Logout</button>
+        </ul>
+
+        
+    </header>
+
+    <div class="supportheader">
+    
+        <ul>
+            <li class="firstli"><a href="#supportsection">Support</li>
+            <li><a href="#faqsection">FAQ</a></li>
+        </ul>
+    </div>
+    
+<section id="supportsection">
+
+    <div class="supportform">
+
+        <h2>Send a ticket</h2>
+  
+    <form action="">
+
+        <label for="name">Name</label>  
+        <input type="text" id="name" name="name" required>  
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+   </div>
+
+</section>
+
+
+<section id="faqsection">
+
+    <div class="faq-section">
+
+        <h2>Frequently Asked Questions</h2>
+
+        <div class="faq">
+            <div class="question">
+                <h3>What is the role of a Performance Tracker? <i class='bx bx-chevron-down'></i></h3>
+                <p>The Performance Tracker feature is set to help you analyze your waste management performance. Identify areas for improvement and contribute to a cleaner community.</p>
+            </div>
+
+            <div class="question">
+                <h3>How does Performance Tracker work? <i class='bx bx-chevron-down'></i></h3>
+                <p>Everytime you complete a waste collection/disposition schedule, EcoCycle automatically updates your performance tracker. This allows you to track your waste collection/disposition and recycling efforts.</p>
+            </div>
+
+            <div class="question">
+                <h3>One of my features isn't working, what should I do? <i class='bx bx-chevron-down'></i></h3>
+                <p>Please fill the form above to file a ticket and we will look into the issue as soon as possible.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<footer id="footer">
+        
+    <div class="logo">EcoCycle</div>
+
+
+    <div class="footer-content">
+
+    <div class="footerabout">
+       <p>
+        EcoCycle aims to reduce waste, increase recycling, and keep our communities clean. Join us in creating healthier and greener environment for everyone.
+       </p>
+    </div>
+
+    <div class="pages">
+        <h3> App Pages</h3>
+        <br>
+        <ul class="company">
+            <li><a href="col.html">Dashboard</a></li>
+            <br>
+            <li><a href="tracker.html">Recycle tracker</a></li>
+            <br>
+            <li><a href="#footer">Contact</a></li>
+            <br>
+        </ul>
+    </div>
+
+    <div class="contacts">
+     <h3>Contact us</h3>
+     <br>
+     <div><i class='bx bxs-phone-call'></i> : <a href="http://www.facebook.com">Reach out to support</a></div> 
+     <br>
+     <div><i class='bx bx-home' ></i> :<a href="http://www.twitter.com">Learn more from our website</a></div>
+     <br>
+    <div class="smedia">
+    <a href=""><i class='bx bxl-instagram-alt' ></i></a>
+     <a href=""><i class='bx bxl-twitter' ></i></a>
+    </div>
+    </div>
+ </div>
+
+ <div class="copyright">
+ <p>&copy; 2024 Management App. All rights reserved.</p>
+ </div>
+</footer>
+
+
+<script src="faq.js"></script>
+<script src="logout.js"></script>
+<script src="responsive.js"></script>
+</body>
+</html>

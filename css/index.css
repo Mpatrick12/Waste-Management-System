@@ -8,6 +8,9 @@ body{
 .schedule {
     margin-top: 10%;
 }
+#schedule-list{
+    margin-top: 8%;
+}
 .schedule h1{
     text-align: center;
     font-size: 30px;
@@ -19,6 +22,50 @@ body{
     font-size: 13px;
     color: gray;   
 }
+.schedule-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 70%;
+    margin: 10px auto;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+}
+
+.schedule-item h3 {
+    color: green;
+    margin-bottom: 10px;
+}
+
+.schedule-item div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.schedule-item span {
+    flex: 2;
+}
+
+.schedule-item span:last-child {
+    flex: 1;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.schedule-item button {
+    margin-left: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
 
 @media screen and (max-width: 540px) {
     .schedule{

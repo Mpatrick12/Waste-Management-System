@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recyle Tracker</title>
+    <title>Recycle Tracker</title>
     <link rel="stylesheet" href="css/tracker.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/header.css">
@@ -30,29 +30,16 @@
     <div class="tracker">
         <h2>Create Schedule</h2>
 
-         <div class="details">
-
+        <div class="details">
             <form id="setschedule">
-
-                <label for="date">Enter Date:</label> <br> <br>
+                <label for="date">Enter Date:</label><br><br>
                 <input type="date" id="due-date" required><br><br>
 
-                <label for="time">Enter Time</label> <br> <br>
-                <input type="time" id="due-time"><br><br>
+                <label for="time">Enter Time</label><br><br>
+                <input type="time" id="due-time" required><br><br>
 
-                <div class="biweekly" style="display: none;">
-                    <label for="date">Enter Second Date:</label> <br> <br>
-                <input type="date" id="due-date" required><br><br>
-
-                
-                <label for="time">Enter second Time</label> <br> <br>
-                <input type="time" id="due-time"><br><br>
-                
-                </div> 
-               
-                <label for="repeat"> Repeat</label> <br> <br>
+                <label for="repeat">Repeat</label><br><br>
                 <select id="repeat" name="repeat" required>
-                    <option value="0">Repeat</option>
                     <option value="none">None</option>
                     <option value="everyday">Everyday</option>
                     <option value="weekly">Weekly</option>
@@ -60,30 +47,22 @@
                     <option value="monthly">Monthly</option>
                 </select><br><br>
 
-                <button id="save">Save</button>
-            <button id="cancel">Cancel</button>
-            </form>            
+                <button type="submit" id="save">Save</button>
+                <button type="button" id="cancel">Cancel</button>
+            </form>
         </div>
-
-        <button id="add-project-btn" style="display: none;">Adjust Schedule</button>
-
     </div>
 
-    <br> <br> <br>
+    <br><br><br>
 
     <footer id="footer">
-            <div class="logo">EcoCycle</div>
-
-            <div class="footer-content">
-
+        <div class="logo">EcoCycle</div>
+        <div class="footer-content">
             <div class="footerabout">
-                <p>
-                 EcoCycle aims to reduce waste, increase recycling, and keep our communities clean. Join us in creating healthier and greener environment for everyone.
-                </p>
-             </div>
-
+                <p>EcoCycle aims to reduce waste, increase recycling, and keep our communities clean. Join us in creating a healthier and greener environment for everyone.</p>
+            </div>
             <div class="pages">
-                <h3> App Pages</h3>
+                <h3>App Pages</h3>
                 <br>
                 <ul class="company">
                     <li><a href="householdhome.html">Dashboard</a></li>
@@ -96,28 +75,26 @@
                     <br>
                 </ul>
             </div>
-
             <div class="contacts">
-             <h3>Contact us</h3>
-             <br>
-             <div><i class='bx bxs-phone-call'></i> : <a href="http://www.facebook.com">Reach out to support</a></div> 
-             <br>
-             <div><i class='bx bx-home' ></i> :<a href="http://www.twitter.com">Learn more from our website</a></div>
-             <br>
-            <div class="smedia">
-            <a href=""><i class='bx bxl-instagram-alt' ></i></a>
-             <a href=""><i class='bx bxl-twitter' ></i></a>
+                <h3>Contact us</h3>
+                <br>
+                <div><i class='bx bxs-phone-call'></i> : <a href="http://www.facebook.com">Reach out to support</a></div>
+                <br>
+                <div><i class='bx bx-home'></i> :<a href="http://www.twitter.com">Learn more from our website</a></div>
+                <br>
+                <div class="smedia">
+                    <a href=""><i class='bx bxl-instagram-alt'></i></a>
+                    <a href=""><i class='bx bxl-twitter'></i></a>
+                </div>
             </div>
-            </div>
-         </div>
-
-         <div class="copyright">
-         <p>&copy; 2024 Management App. All rights reserved.</p>
-         </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 Management App. All rights reserved.</p>
+        </div>
     </footer>
 
-    <script src="logout.js"></script>
     <script src="tracker.js"></script>
+    <script src="logout.js"></script>
     <script src="responsive.js"></script>
 </body>
-</html>    
+</html>
