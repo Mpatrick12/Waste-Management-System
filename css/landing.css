@@ -379,10 +379,17 @@ form button {
     margin-bottom: 5%;
 }
 
+form button a{
+   color: white;
+   text-decoration: none;
+}
+
 form button:hover {
     background-color: white;
-    color: #006400;
     border: 1px solid green;
+}
+form button a:hover {
+  color: #006400;
 }
 
 footer {
@@ -404,7 +411,6 @@ footer {
 
 @media screen and (max-width: 540px) {
     .toggle-button {
-        /* margin-top: -7%; */
         margin-right: 3%;
         cursor: pointer;
         float: right;
