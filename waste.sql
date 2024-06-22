@@ -1,4 +1,4 @@
-
+  
 -- Create the database
 CREATE DATABASE smart_waste_management;
 
